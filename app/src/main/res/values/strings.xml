@@ -6,4 +6,6 @@
     <string name="licensePlate_text">license plate</string>
     <string name="carBrand">car brand</string>
     <string name="name">name</string>
+    <string name="update_text">Update</string>
+    <string name="delete_text">Delete</string>
 </resources>
