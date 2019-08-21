@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ParkingPlace</string>
+    <string name="slot_1">Slot 1</string>
+    <string name="slot_2">Slot 2</string>
+    <string name="slot_3">Slot 3</string>
+    <string name="licensePlate_text">license plate</string>
+    <string name="carBrand">car brand</string>
+    <string name="name">name</string>
 </resources>
