@@ -8,4 +8,6 @@
     <string name="name">name</string>
     <string name="update_text">Update</string>
     <string name="delete_text">Delete</string>
+    <string name="slot_empty">Empty</string>
+    <string name="string_empty"/>
 </resources>
