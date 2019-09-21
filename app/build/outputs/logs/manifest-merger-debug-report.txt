@@ -1,0 +1,228 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\147e2dcb40ef7c3b54e642082555d6e1\databinding-adapters-3.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\78eea1977c6a9de5d1b4aa5eef94559f\databinding-runtime-3.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\aea4cf557355f3c18ee82978207cb5ea\navigation-ui-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6637c37d354492be753594796b0e8674\jetified-navigation-ui-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fe35f8949d90cd7ad6ddf0f8d43d4765\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2c92cbd578d33208031db7975ca988a7\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e192bf432cc3451a33a2f870c69e1070\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a71144c72116546f913b96cbaebe1922\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\3b9927c857b60b993312d28dd8fe68b9\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d6774574f2598698e528716749bfa1be\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9ac5af38692e6d79f72e0df668984dc4\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\45dcc25f599017162a069473e1075167\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\565b80c5b616e7f6f7e40cecaa8c42e6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\327dc962155a85b330630c791c1ffd83\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2671d49518d38b1f59bf5ed852d7a4bc\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\46a9188b8de2df2400b31c72c4c3bbb9\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\643209e655eb0a2ee4506ae336d8ddd3\navigation-fragment-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\4b39a28efa8db34caeb00f59f88ae959\fragment-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a5e16eac9930c30387cc652cad4c9f88\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f49d1af8aa42cd26b8c97a9ba7ae48fd\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a2a1a7d5d027ca12ce59e9f120888b42\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\eaf1c7c974d3bcce508b17cbf88a866b\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\cc49bd347ec02dc2d8ab0f995d8aa299\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d0e16d98cc12b989e66109ec6e46da02\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\21201cb3c09bd8c674bcf12df540623d\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\caaed0927843857de5256d1064e75ad1\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2389982a67bb9caf8a3f2034bfe92560\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\699d750ab89483d6f5c936780971073d\transition-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6238db1156260104a9589d8270635846\navigation-runtime-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce88e11cb41b45db92b4294e7c015db9\navigation-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f68c452adcc99e9cfe8e2f442072b81a\activity-ktx-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\62cc81698452afe55c5695c34d77f0d3\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e0bb45fac71c7ca4a954b3a26fdf2cbb\navigation-common-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\39e5287d85484744b30331865ad17b4a\navigation-common-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2ddef10d8d64178c8040b6690f3e1261\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\17af6a24c1f9d80b5a1c67bb0b579567\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fb9e4707d2f940615466ad249562f5e7\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce5718458e92c8f2fffa1acb0c92d76e\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ab35a14658c5c73647a232d6547243c0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a9358e9f21139dadbc670d14b0db57aa\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\85a37a3db8173dccb63003537847399c\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9d2ad0cc7b942d118559f6727c31e1a6\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2806b78ad01b94a917fad2a209d56d25\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d92cf7f3a1411d18a0119bf5a4cff138\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\7f21a39d68a190a9d9533cbcd4e865b1\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\b9fcf2ac4ee1c0990d07b719d82d112d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ccf5899e18571b0cd394f2111fc64f62\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d2e2b7d386485bb165e5ae86a5848cc1\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:3:11-59
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:1-22:12
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fe35f8949d90cd7ad6ddf0f8d43d4765\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fe35f8949d90cd7ad6ddf0f8d43d4765\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a71144c72116546f913b96cbaebe1922\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a71144c72116546f913b96cbaebe1922\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\17af6a24c1f9d80b5a1c67bb0b579567\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\17af6a24c1f9d80b5a1c67bb0b579567\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:10:13-39
+	android:label
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:8:13-45
+	android:roundIcon
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:9:13-58
+	android:icon
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:7:13-47
+	android:allowBackup
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:11:13-44
+activity#buu.informatics.s59160141.parkingplace.MainActivity
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:17-76
+	android:name
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:27-74
+meta-data#preloaded_fonts
+ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:9-94
+	android:resource
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:51-92
+	android:name
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:20-50
+uses-sdk
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\147e2dcb40ef7c3b54e642082555d6e1\databinding-adapters-3.5.0\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\147e2dcb40ef7c3b54e642082555d6e1\databinding-adapters-3.5.0\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\78eea1977c6a9de5d1b4aa5eef94559f\databinding-runtime-3.5.0\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.5.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\78eea1977c6a9de5d1b4aa5eef94559f\databinding-runtime-3.5.0\AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\aea4cf557355f3c18ee82978207cb5ea\navigation-ui-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\aea4cf557355f3c18ee82978207cb5ea\navigation-ui-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6637c37d354492be753594796b0e8674\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6637c37d354492be753594796b0e8674\jetified-navigation-ui-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fe35f8949d90cd7ad6ddf0f8d43d4765\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fe35f8949d90cd7ad6ddf0f8d43d4765\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2c92cbd578d33208031db7975ca988a7\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2c92cbd578d33208031db7975ca988a7\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e192bf432cc3451a33a2f870c69e1070\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e192bf432cc3451a33a2f870c69e1070\core-ktx-1.0.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a71144c72116546f913b96cbaebe1922\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a71144c72116546f913b96cbaebe1922\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\3b9927c857b60b993312d28dd8fe68b9\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\3b9927c857b60b993312d28dd8fe68b9\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d6774574f2598698e528716749bfa1be\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d6774574f2598698e528716749bfa1be\navigation-fragment-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9ac5af38692e6d79f72e0df668984dc4\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9ac5af38692e6d79f72e0df668984dc4\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\45dcc25f599017162a069473e1075167\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\45dcc25f599017162a069473e1075167\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\565b80c5b616e7f6f7e40cecaa8c42e6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\565b80c5b616e7f6f7e40cecaa8c42e6\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\327dc962155a85b330630c791c1ffd83\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\327dc962155a85b330630c791c1ffd83\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2671d49518d38b1f59bf5ed852d7a4bc\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2671d49518d38b1f59bf5ed852d7a4bc\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\46a9188b8de2df2400b31c72c4c3bbb9\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\46a9188b8de2df2400b31c72c4c3bbb9\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\643209e655eb0a2ee4506ae336d8ddd3\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\643209e655eb0a2ee4506ae336d8ddd3\navigation-fragment-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\4b39a28efa8db34caeb00f59f88ae959\fragment-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\4b39a28efa8db34caeb00f59f88ae959\fragment-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a5e16eac9930c30387cc652cad4c9f88\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a5e16eac9930c30387cc652cad4c9f88\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f49d1af8aa42cd26b8c97a9ba7ae48fd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f49d1af8aa42cd26b8c97a9ba7ae48fd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a2a1a7d5d027ca12ce59e9f120888b42\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a2a1a7d5d027ca12ce59e9f120888b42\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\eaf1c7c974d3bcce508b17cbf88a866b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\eaf1c7c974d3bcce508b17cbf88a866b\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\cc49bd347ec02dc2d8ab0f995d8aa299\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\cc49bd347ec02dc2d8ab0f995d8aa299\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d0e16d98cc12b989e66109ec6e46da02\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d0e16d98cc12b989e66109ec6e46da02\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\21201cb3c09bd8c674bcf12df540623d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\21201cb3c09bd8c674bcf12df540623d\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\caaed0927843857de5256d1064e75ad1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\caaed0927843857de5256d1064e75ad1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2389982a67bb9caf8a3f2034bfe92560\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2389982a67bb9caf8a3f2034bfe92560\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\699d750ab89483d6f5c936780971073d\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\699d750ab89483d6f5c936780971073d\transition-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6238db1156260104a9589d8270635846\navigation-runtime-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\6238db1156260104a9589d8270635846\navigation-runtime-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce88e11cb41b45db92b4294e7c015db9\navigation-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce88e11cb41b45db92b4294e7c015db9\navigation-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f68c452adcc99e9cfe8e2f442072b81a\activity-ktx-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\f68c452adcc99e9cfe8e2f442072b81a\activity-ktx-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\62cc81698452afe55c5695c34d77f0d3\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\62cc81698452afe55c5695c34d77f0d3\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e0bb45fac71c7ca4a954b3a26fdf2cbb\navigation-common-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\e0bb45fac71c7ca4a954b3a26fdf2cbb\navigation-common-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\39e5287d85484744b30331865ad17b4a\navigation-common-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\39e5287d85484744b30331865ad17b4a\navigation-common-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\18e68b7760a43df1c593429cf31dd619\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2ddef10d8d64178c8040b6690f3e1261\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2ddef10d8d64178c8040b6690f3e1261\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\17af6a24c1f9d80b5a1c67bb0b579567\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\17af6a24c1f9d80b5a1c67bb0b579567\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fb9e4707d2f940615466ad249562f5e7\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\fb9e4707d2f940615466ad249562f5e7\lifecycle-viewmodel-ktx-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce5718458e92c8f2fffa1acb0c92d76e\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ce5718458e92c8f2fffa1acb0c92d76e\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ab35a14658c5c73647a232d6547243c0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ab35a14658c5c73647a232d6547243c0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a9358e9f21139dadbc670d14b0db57aa\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\a9358e9f21139dadbc670d14b0db57aa\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\85a37a3db8173dccb63003537847399c\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\85a37a3db8173dccb63003537847399c\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9d2ad0cc7b942d118559f6727c31e1a6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\9d2ad0cc7b942d118559f6727c31e1a6\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2806b78ad01b94a917fad2a209d56d25\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\2806b78ad01b94a917fad2a209d56d25\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d92cf7f3a1411d18a0119bf5a4cff138\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d92cf7f3a1411d18a0119bf5a4cff138\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\7f21a39d68a190a9d9533cbcd4e865b1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\7f21a39d68a190a9d9533cbcd4e865b1\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\b9fcf2ac4ee1c0990d07b719d82d112d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\b9fcf2ac4ee1c0990d07b719d82d112d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ccf5899e18571b0cd394f2111fc64f62\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\ccf5899e18571b0cd394f2111fc64f62\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d2e2b7d386485bb165e5ae86a5848cc1\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\MSI GS72\.gradle\caches\transforms-2\files-2.1\d2e2b7d386485bb165e5ae86a5848cc1\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		ADDED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml
+		INJECTED from D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml

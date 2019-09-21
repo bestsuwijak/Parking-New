@@ -9,5 +9,9 @@
     <string name="update_text">Update</string>
     <string name="delete_text">Delete</string>
     <string name="slot_empty">Empty</string>
-    <string name="string_empty"/>
+    <string name="string_empty" />
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_btnLogin">Login</string>
 </resources>

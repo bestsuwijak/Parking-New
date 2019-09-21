@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".Parking">
+    <data>
+        <variable name="carData" type="buu.informatics.s59160141.parkingplace.CarData" />
+        <variable name="slots" type="buu.informatics.s59160141.parkingplace.CarData[]" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+>
+        <Button
+                android:id="@+id/slot_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                app:layout_constraintBaseline_toBaselineOf="@+id/slot_2" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/slot_2"
+                style="@style/slotBox" android:background="#C0C0C0" android:textSize="18sp"
+                android:text="@string/slot_empty"/>
+        <Button
+                android:id="@+id/slot_2"
+                android:text="@string/slot_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                app:layout_constraintStart_toEndOf="@+id/slot_1" app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintEnd_toStartOf="@+id/slot_3" android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp" android:layout_marginTop="20dp" app:layout_constraintTop_toTopOf="parent"
+                style="@style/slotBox" android:background="#C0C0C0" android:textSize="18sp"/>
+        <Button
+                android:id="@+id/slot_3"
+                android:text="@string/slot_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                app:layout_constraintBaseline_toBaselineOf="@+id/slot_2" app:layout_constraintStart_toEndOf="@+id/slot_2"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+                style="@style/slotBox" android:background="#C0C0C0" android:textSize="18sp"/>
+
+        <EditText
+                android:id="@+id/licensePlate"
+                android:text="@={carData.licensePlate}"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                app:layout_constraintTop_toBottomOf="@+id/slot_1"
+                app:layout_constraintBottom_toTopOf="@+id/carBrand" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/margin_wide" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="@dimen/margin_wide" app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginTop="20dp" android:paddingTop="@dimen/padding_height"
+                android:paddingBottom="@dimen/padding_height"
+                android:fontFamily="@font/roboto" android:textSize="20sp" android:hint="@string/licensePlate_text"/>
+        <EditText
+                android:id="@+id/carBrand"
+                android:text="@={carData.carBrand}"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                app:layout_constraintTop_toBottomOf="@+id/licensePlate"
+                app:layout_constraintBottom_toTopOf="@+id/name" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/margin_wide" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="@dimen/margin_wide" android:layout_marginTop="@dimen/margin_wide"
+                android:layout_marginBottom="@dimen/margin_wide" android:paddingTop="@dimen/padding_height"
+                android:paddingBottom="@dimen/padding_height" android:fontFamily="@font/roboto" android:textSize="20sp"
+                android:hint="@string/carBrand"/>
+        <EditText
+                android:id="@+id/name"
+                android:text="@={carData.name}"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                app:layout_constraintTop_toBottomOf="@+id/carBrand"
+                android:layout_marginStart="@dimen/margin_wide" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginEnd="@dimen/margin_wide" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="24dp" app:layout_constraintHorizontal_bias="1.0"
+                android:paddingTop="@dimen/padding_height" android:paddingBottom="@dimen/padding_height"
+                android:fontFamily="@font/roboto" android:textSize="20sp" android:hint="@string/name"/>
+
+        <Button
+                android:id="@+id/update_button"
+                android:text="@string/update_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/delete_button"
+                android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/name" style="@style/updateBox"
+                android:layout_marginStart="16dp" android:layout_marginEnd="10dp"/>
+        <Button
+                android:id="@+id/delete_button"
+                android:text="@string/delete_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintBaseline_toBaselineOf="@+id/update_button"
+                app:layout_constraintStart_toEndOf="@+id/update_button"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+                style="@style/deleteBox" android:layout_marginStart="10dp" android:layout_marginEnd="10dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
