@@ -1125,6 +1125,7 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
+id alert_text
 id all
 id always
 id async
@@ -1301,6 +1302,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textWatcher
 id text_input_password_toggle
 id textinput_counter
@@ -1460,6 +1462,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string alert_login
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -1491,6 +1494,7 @@ string status_bar_notification_info_overflow
 string string_empty
 string text_btnLogin
 string update_text
+string your_info
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

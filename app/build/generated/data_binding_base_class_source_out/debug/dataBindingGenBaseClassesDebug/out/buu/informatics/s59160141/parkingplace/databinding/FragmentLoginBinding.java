@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -16,6 +17,9 @@ import java.lang.Object;
 
 public abstract class FragmentLoginBinding extends ViewDataBinding {
   @NonNull
+  public final TextView alertText;
+
+  @NonNull
   public final Button btnLogin;
 
   @NonNull
@@ -25,8 +29,9 @@ public abstract class FragmentLoginBinding extends ViewDataBinding {
   public final EditText username;
 
   protected FragmentLoginBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      Button btnLogin, EditText password, EditText username) {
+      TextView alertText, Button btnLogin, EditText password, EditText username) {
     super(_bindingComponent, _root, _localFieldCount);
+    this.alertText = alertText;
     this.btnLogin = btnLogin;
     this.password = password;
     this.username = username;

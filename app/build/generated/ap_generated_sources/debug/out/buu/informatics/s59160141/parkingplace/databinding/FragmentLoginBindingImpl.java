@@ -17,6 +17,7 @@ public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
         sViewsWithIds.put(R.id.username, 1);
         sViewsWithIds.put(R.id.password, 2);
         sViewsWithIds.put(R.id.btnLogin, 3);
+        sViewsWithIds.put(R.id.alert_text, 4);
     }
     // views
     @NonNull
@@ -27,10 +28,11 @@ public class FragmentLoginBindingImpl extends FragmentLoginBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentLoginBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
     }
     private FragmentLoginBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
+            , (android.widget.TextView) bindings[4]
             , (android.widget.Button) bindings[3]
             , (android.widget.EditText) bindings[2]
             , (android.widget.EditText) bindings[1]

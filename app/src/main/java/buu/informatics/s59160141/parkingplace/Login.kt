@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import buu.informatics.s59160141.parkingplace.databinding.FragmentLoginBinding
-
+import kotlinx.android.synthetic.main.fragment_login.*
 
 
 class Login : Fragment() {
@@ -20,11 +20,14 @@ class Login : Fragment() {
 
         val binding = DataBindingUtil.inflate<FragmentLoginBinding>(inflater,
             R.layout.fragment_login,container,false)
+
+        binding.alertText.visibility = View.GONE
+
         binding.btnLogin.setOnClickListener { view ->
-            if(true){
+            if(username.text.toString() == "username" && password.text.toString() == "password"){
                 view.findNavController().navigate(R.id.action_login_to_parking)
             }else{
-
+                binding.alertText.visibility = View.VISIBLE
             }
         }
         setHasOptionsMenu(true)

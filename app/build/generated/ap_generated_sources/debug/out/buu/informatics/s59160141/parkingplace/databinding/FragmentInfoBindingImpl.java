@@ -14,7 +14,8 @@ public class FragmentInfoBindingImpl extends FragmentInfoBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.imageView, 1);
+        sViewsWithIds.put(R.id.textView, 1);
+        sViewsWithIds.put(R.id.imageView, 2);
     }
     // views
     @NonNull
@@ -25,11 +26,12 @@ public class FragmentInfoBindingImpl extends FragmentInfoBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentInfoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
     }
     private FragmentInfoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (android.widget.ImageView) bindings[1]
+            , (android.widget.ImageView) bindings[2]
+            , (android.widget.TextView) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

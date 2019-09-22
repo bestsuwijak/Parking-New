@@ -55,9 +55,22 @@
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="@dimen/margin_50dp"
                 android:background="@android:color/holo_blue_dark"
+                android:fontFamily="@font/roboto"
                 android:text="@string/text_btnLogin"
+                android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/password" />
+
+        <TextView
+                android:id="@+id/alert_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/alert_login"
+                android:textColor="@android:color/holo_red_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
