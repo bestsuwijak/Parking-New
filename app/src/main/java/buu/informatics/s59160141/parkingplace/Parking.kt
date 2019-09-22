@@ -27,7 +27,7 @@ class Parking : Fragment() {
         binding = DataBindingUtil.inflate<FragmentParkingBinding>(inflater,
             R.layout.fragment_parking,container,false)
 
-        //hide()
+        hide()
 
         binding.apply {
             slots = this@Parking.slots
@@ -73,7 +73,7 @@ class Parking : Fragment() {
     }
 
     private fun click(view: View) {
-        //show()
+        show()
         setButtonColor(getSlot(view))
         binding.apply {
             slotIndex = getSlot(view)
@@ -91,19 +91,19 @@ class Parking : Fragment() {
 
     private fun update(int: Int){
         when(int) {
-            0 -> { if(slot_1.text != ""){
+            0 -> { if(slot_1.text != "" && licensePlate.text.toString() != ""){
                 slot_1.text = licensePlate.text.toString()
             }else{
                 slot_1.text = "Empty"
             }
             }
-            1 -> { if(slot_2.text != ""){
+            1 -> { if(slot_2.text != "" && licensePlate.text.toString() != ""){
                 slot_2.text = licensePlate.text.toString()
             }else{
                 slot_2.text = "Empty"
             }
             }
-            2 -> { if(slot_3.text != ""){
+            2 -> { if(slot_3.text != "" && licensePlate.text.toString() != ""){
                 slot_3.text = licensePlate.text.toString()
             }else{
                 slot_3.text = "Empty"
@@ -140,8 +140,9 @@ class Parking : Fragment() {
             licensePlate.visibility = View.GONE
             carBrand.visibility = View.GONE
             name.visibility = View.GONE
-            update_button.visibility = View.GONE
-            delete_button.visibility = View.GONE
+            updateButton.visibility = View.GONE
+            deleteButton.visibility = View.GONE
+            invalidateAll()
         }
     }
 
@@ -150,8 +151,9 @@ class Parking : Fragment() {
             licensePlate.visibility = View.VISIBLE
             carBrand.visibility = View.VISIBLE
             name.visibility = View.VISIBLE
-            update_button.visibility = View.VISIBLE
-            delete_button.visibility = View.VISIBLE
+            updateButton.visibility = View.VISIBLE
+            deleteButton.visibility = View.VISIBLE
+            invalidateAll()
         }
     }
 
