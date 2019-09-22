@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import buu.informatics.s59160141.parkingplace.databinding.ActivityMainBindingImpl;
+import buu.informatics.s59160141.parkingplace.databinding.FragmentInfoBindingImpl;
 import buu.informatics.s59160141.parkingplace.databinding.FragmentLoginBindingImpl;
 import buu.informatics.s59160141.parkingplace.databinding.FragmentParkingBindingImpl;
 import java.lang.IllegalArgumentException;
@@ -22,14 +23,17 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final int LAYOUT_FRAGMENTLOGIN = 2;
+  private static final int LAYOUT_FRAGMENTINFO = 2;
 
-  private static final int LAYOUT_FRAGMENTPARKING = 3;
+  private static final int LAYOUT_FRAGMENTLOGIN = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_FRAGMENTPARKING = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(buu.informatics.s59160141.parkingplace.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(buu.informatics.s59160141.parkingplace.R.layout.fragment_info, LAYOUT_FRAGMENTINFO);
     INTERNAL_LAYOUT_ID_LOOKUP.put(buu.informatics.s59160141.parkingplace.R.layout.fragment_login, LAYOUT_FRAGMENTLOGIN);
     INTERNAL_LAYOUT_ID_LOOKUP.put(buu.informatics.s59160141.parkingplace.R.layout.fragment_parking, LAYOUT_FRAGMENTPARKING);
   }
@@ -48,6 +52,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTINFO: {
+          if ("layout/fragment_info_0".equals(tag)) {
+            return new FragmentInfoBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_info is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTLOGIN: {
           if ("layout/fragment_login_0".equals(tag)) {
@@ -116,10 +126,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
       sKeys.put("layout/activity_main_0", buu.informatics.s59160141.parkingplace.R.layout.activity_main);
+      sKeys.put("layout/fragment_info_0", buu.informatics.s59160141.parkingplace.R.layout.fragment_info);
       sKeys.put("layout/fragment_login_0", buu.informatics.s59160141.parkingplace.R.layout.fragment_login);
       sKeys.put("layout/fragment_parking_0", buu.informatics.s59160141.parkingplace.R.layout.fragment_parking);
     }

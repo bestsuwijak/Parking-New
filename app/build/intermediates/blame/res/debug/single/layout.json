@@ -8,6 +8,10 @@
         "source": "D:\\59160141\\ParkingPlace\\app\\src\\main\\res\\layout\\fragment_parking.xml"
     },
     {
+        "merged": "D:\\59160141\\ParkingPlace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_info.xml",
+        "source": "D:\\59160141\\ParkingPlace\\app\\src\\main\\res\\layout\\fragment_info.xml"
+    },
+    {
         "merged": "D:\\59160141\\ParkingPlace\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
         "source": "D:\\59160141\\ParkingPlace\\app\\src\\main\\res\\layout\\fragment_login.xml"
     }

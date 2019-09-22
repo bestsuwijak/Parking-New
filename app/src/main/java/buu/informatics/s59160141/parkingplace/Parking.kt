@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import buu.informatics.s59160141.parkingplace.databinding.FragmentParkingBinding
 import kotlinx.android.synthetic.main.fragment_parking.*
 
@@ -154,5 +156,14 @@ class Parking : Fragment() {
     }
 
 //menu
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+    super.onCreateOptionsMenu(menu, inflater)
+    inflater?.inflate(R.menu.option_menu,menu)
+}
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(item!!,
+            view!!.findNavController()) || super.onOptionsItemSelected(item)
+    }
 
 }

@@ -6,6 +6,7 @@ import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import buu.informatics.s59160141.parkingplace.databinding.FragmentLoginBinding
 
 
@@ -31,4 +32,13 @@ class Login : Fragment() {
     }
 
 //menu
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater?.inflate(R.menu.option_menu,menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return NavigationUI.onNavDestinationSelected(item!!,
+            view!!.findNavController()) || super.onOptionsItemSelected(item)
+    }
 }

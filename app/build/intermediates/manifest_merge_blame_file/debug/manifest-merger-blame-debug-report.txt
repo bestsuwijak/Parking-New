@@ -25,29 +25,30 @@
 17-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:9:13-58
 18        android:supportsRtl="true"
 18-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:10:13-39
-19        android:theme="@style/AppTheme" >
-19-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:11:13-44
-20        <activity android:name="buu.informatics.s59160141.parkingplace.MainActivity" >
-20-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:9-18:20
-20-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:17-68
-22-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:17-76
-24-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27
-28        <meta-data
-28-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:9-94
-29            android:name="preloaded_fonts"
-29-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:20-50
-30            android:resource="@array/preloaded_fonts" />
-30-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:51-92
-31    </application>
-32
-33</manifest>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:11:13-44
+21        <activity android:name="buu.informatics.s59160141.parkingplace.MainActivity" >
+21-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:9-18:20
+21-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:12:19-47
+22            <intent-filter>
+22-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:13:13-17:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:17-68
+23-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:17-76
+25-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:16:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <meta-data
+29-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:9-94
+30            android:name="preloaded_fonts"
+30-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:20-50
+31            android:resource="@array/preloaded_fonts" />
+31-->D:\59160141\ParkingPlace\app\src\main\AndroidManifest.xml:19:51-92
+32    </application>
+33
+34</manifest>
